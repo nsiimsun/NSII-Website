@@ -1,0 +1,65 @@
+.juryGameButton {
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 18pt;
+    border: none;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+body {
+    font-family: "Times New Roman";
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+button>a {
+    font-family:'Times New Roman', Times, serif
+}
+
+h1 {
+    font-size: 40pt;
+    font-variant: small-caps;
+}
+
+.container{
+    padding:30px;
+}
+
+.code {
+    font-family: "Courier New", monospace;
+}
+
+.jurypost {
+    padding: 1%;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 5%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+iframe{
+    margin: 5%;
+}
+
+#center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
