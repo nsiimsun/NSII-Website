@@ -1,66 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NSII</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSII - Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="images/nsii-just-lake-square.svg" type="image/x-icon">
 </head>
 
 <body>
 
-	<header>
-		<h1 id="title"><img class='logo' src="images/nsii-long-trial-gold-cpu.png" alt="NSII Logo"></h1>
-		<div class="thin-separator"></div>
-		<nav>
-		  	<ul id="navbar">
+<header>
+    <h1 id="title"><img class='logo' src="images/nsii-long-trial-gold-cpu.png" alt="NSII Logo"></h1>
+    <div class="thin-separator"></div>
+    <nav>
+        <ul id="navbar">
+            <li><a href="../">
+                <button class="btn">Home</button>
+            </a></li>
+            <li><a href="AboutUs.html">
+                <button class="btn">About Us</button>
+            </a></li>
+            <li><a href="Research.html">
+                <button class="btn">Research</button>
+            </a></li>
+            <li><a href="Publications.html">
+                <button class="btn">Publications</button>
+            </a></li>
+            <li><a href="ContactUs.html">
+                <button class="btn">Contact Us</button>
+            </a></li>
+        </ul>
+    </nav>
+    <div class="thin-separator"></div>
+</header>
 
-				<li><a href="Home.html">
-					<button class="btn">Home</button>
-				</a></li>
-				<li><a href="AboutUs.html">
-					<button class="btn">About Us</button>
-				</a></li>
-				<li><a href="Research.html">
-					<button class="btn">Research</button>
-				</a></li>
-				<li><a href="Publications.html">
-					<button class="btn">Publications</button>
-				</a></li>
-				<li><a href="ContactUs.html">
-					<button class="btn">Contact Us</button>
-				</a></li>
-			
-			</ul>
-		</nav>
-		<div class="thin-separator"></div>
-	</header>
-
-	<main>
+<main>
 
 
-		<div class="container">
-			<h1 class="section-title">Contact Us</h1>
-			<div class="card">
-				<h2>Send us a message</h2>
-				<form>
-					<label for="name">Name:</label>
-					<input type="text" id="name" name="name" required><br>
-	
-					<label for="email">Email:</label>
-					<input type="email" id="email" name="email" required><br>
-	
-					<label for="message">Message:</label><br>
-					<textarea id="message" name="message" rows="5" required></textarea><br>
-	
-					<input type="submit" value="Submit" class="btn">
-				</form>
-			</div>
-		</div>
-	</main>
-</body>  
-<footer>
-	<p>&copy; 2023 Think Tank, Inc. All rights reserved.</p>
-</footer>
+    <div class="container" style="background-color: lightgray;">
+        <h1 class="section-title">Send us a message</h1>
+            <p>Email: admin@nsii.ca</p>
+            <p>YouTube: https://www.youtube.com/@northernshoresinnovationin8878</p>
+            <p>LinkedIn: https://ca.linkedin.com/company/northern-shores-innovation-institute</p>
+        </div>
+    </div>
+    <footer>
+        <p id="copyright" style="text-align: center;">Copyright &copy; 2023 NSII, All rights reserved.</p>
+    </footer>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+
+        // Get the copyright element
+        const copyrightElement = document.getElementById("copyright");
+
+        // Update the copyright element to include the current year
+        copyrightElement.innerHTML = "Copyright &copy; " + currentYear + " NSII, All rights reserved.";
+    </script>
+</main>
+</body>
+</html>
 	  
   
